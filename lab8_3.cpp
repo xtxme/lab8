@@ -14,19 +14,19 @@ int main()
         cin >> height;
         if (height < 100)
         {
-            cout << "character = " << "Chopper";
+            cout << "Your character = " << "Chopper";
         }else{
             if (height < 180)
             {
-                cout << "character = " << "Usopp";
+                cout << "Your character = " << "Usopp";
             }else{
                 cout << "Enter your bounty: ";
                 cin >> bounty;
                 if (bounty > 1100000000)
                 {
-                    cout << "character = " << "Zoro";
+                    cout << "Your character = " << "Zoro";
                 }else{
-                    cout << "character = " << "Sanji";
+                    cout << "Your character = " << "Sanji";
                 }
                 
             }
@@ -39,30 +39,12 @@ int main()
         cin >> bounty;
         if ( bounty > 500000000)
         {
-            cout << "character = " << "Jinbe";
+            cout << "Your character = " << "Jinbe";
         }else{
-            cout << "character = " << "Franky";
+            cout << "Your character = " << "Franky";
         }
         
     }else{
-        cout << "character = " << "Brook";
+        cout << "Your character = " << "Brook";
     }
-    
-    
-    
-
-    
 }
-/*
-"Enter your age: "
-"Enter your height: "
-"Enter your bounty: "
-"Your character = "
-"Zoro"
-"Sanji"
-"Usopp"
-"Chopper"
-"Franky"
-"Brook"
-"Jinbe"
-*/
